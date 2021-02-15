@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,300&display=swap');
+:root{
+    --dark: #2b2d42;
+    --light: #adb5bd;
+    --border: #dee2e6;
+    --border-btn: #edf2f4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decortion: none;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.container{
+    max-width: 1024px;
+    margin: auto;
+
+}
+
+.nav-brand{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.border-shadow{
+    border: 1px solid var(--border-btn);
+    box-shadow: 1px 3px 10px #e9ecef;
+}
+
+.text-dark{
+    color:var(--dark);
+}
+
+.inline{
+    display: inline-block;
+}
+
+.text-light{
+    color: var(--light);
+}
+
+.text-gradiant{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media only screen and (max-width: 1024px){
+    table, thead, tbody, th, td, tr{
+        display: block;
+    }
+
+    thead, tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr{
+        border: 1px solid var(--border);
+    }
+
+    td{
+        border: none;
+        position: relative;
+    }
+
+
+}
+
+
+.form-title{
+    margin-top: 2em;
+}
+
+.form-title>h2{
+    padding: .5em 0;
+}
+
+.new_user{
+    max-width: 786px;
+    margin: auto;
+}
+
+
+#add_user .form-group.btn{
+    width: 100%;
+    padding: .9em 1em;
+    background-color: #16db93;
+}
+
+
+
+
